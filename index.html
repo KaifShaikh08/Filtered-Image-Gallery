@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filterable Image Gallery Bootstrap | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Images Filter Buttons Section -->
+      <div class="row mt-5" id="filter-buttons">
+        <div class="col-12 filter_buttons">
+          <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+          <button class="btn mb-2 mx-1" data-filter="nature">Nature</button>
+          <button class="btn mb-2 mx-1" data-filter="cars">Cars</button>
+          <button class="btn mb-2 mx-1" data-filter="people">People</button>
+        </div>
+      </div>
+
+      <!-- Filterable Images / Cards Section -->
+      <div class="row px-2 mt-4 gap-3 filter-cards" id="filterable-cards" >
+        <div class="card p-0" data-name="nature">
+          <img src="https://images.unsplash.com/photo-1480497490787-505ec076689f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW58ZW58MHx8MHx8fDA%3D" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Mountains</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="nature">
+          <img src="https://plus.unsplash.com/premium_photo-1667544928728-ab4bfed4648c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bGlnaHRzfGVufDB8fDB8fHww" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Lights</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="nature">
+          <img src="https://plus.unsplash.com/premium_photo-1673697239981-389164b7b87f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fHww" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Nature</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+          <img src="https://images.unsplash.com/photo-1522775417749-29284fb89f43?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmV0cm98ZW58MHx8MHx8fDA%3D" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Retro</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+          <img src="https://images.unsplash.com/photo-1704352638185-2fcc28c8e7f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzdHxlbnwwfHwwfHx8MA%3D%3D" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Fast</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="cars">
+          <img src="https://plus.unsplash.com/premium_photo-1664303847960-586318f59035?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Classic</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+          <img src="https://plus.unsplash.com/premium_photo-1664015982598-283bcdc9cae8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVufGVufDB8fDB8fHww" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Men</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="card p-0" data-name="people">
+          <img src="https://images.unsplash.com/photo-1646617747566-b7e784435a48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2lybHxlbnwwfHwwfHx8MA%3D%3D" alt="img">
+          <div class="card-body">
+            <h6 class="card-title">Girl</h6>
+            <p class="card-text">Lorem ipsum dolor..</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
